@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base CSS */
+@layer base {
+  @font-face {
+    font-family: Hellix-Light;
+    src: url(./fonts/Hellix-Light.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: Hellix-Regular;
+    src: url(./fonts/Hellix-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: Hellix-Medium;
+    src: url(./fonts/Hellix-Medium.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: Hellix-SemiBold;
+    src: url(./fonts/Hellix-SemiBold.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: Hellix-Bold;
+    src: url(./fonts/Hellix-Bold.ttf) format('ttf');
+  }
+
+  button,
+  a {
+    @apply no-underline hover:no-underline outline-none;
+  }
+  ol,
+  ul {
+    @apply list-none;
+  }
+
+  textarea {
+    @apply resize-none;
+  }
+
+  body {
+    @apply bg-cover bg-fixed bg-no-repeat bg-left-top overflow-x-hidden;
+  }
+  img {
+    @apply max-w-full object-contain h-auto block;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Custom Classes */
+@layer components {
+  .btns {
+    background: -moz-linear-gradient(left, #b741ff 5.64%, #07a9ee 104.39%);
+    background: -webkit-linear-gradient(left, #b741ff 5.64%, #07a9ee 104.39%);
+    background: linear-gradient(to right, #b741ff 5.64%, #07a9ee 104.39%);
+    @apply text-white rounded-[3.8px] text-center uppercase tracking-[24.5%] text-sm font-Hellix600;
+  }
 }
