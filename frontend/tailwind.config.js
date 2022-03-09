@@ -83,8 +83,9 @@ module.exports = {
   plugins: [
     require('tailwindcss'),
     require('autoprefixer'),
-    // function ({ addVariant }) {
-    //   addVariant('third', '&:nth-child(3n)');
-    // },
+    function ({ addVariant }) {
+      addVariant('third', '&:nth-child(3n)');
+      addVariant('postThird', '&:nth-child(3n+1)');
+    },
   ],
 };

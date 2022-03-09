@@ -17,7 +17,7 @@ function Hero() {
           <button className='btns py-18 px-[62px] w-[211px] '> buy now </button>
         </div>
 
-        <div className='h-[681px] absolute top-0 right-0 w-[562px] z-10 '>
+        <div className='h-[681px] absolute bottom-0 right-0 w-[562px] z-10 '>
           <img
             className=''
             src={`${process.env.PUBLIC_URL}/img/hero.png`}
