@@ -4,11 +4,12 @@ function Header() {
   return (
     <header className='container py-32 flex flex-row justify-between '>
       <div className='h-97'>
-        <img
-          src={`${process.env.PUBLIC_URL}/img/logo.svg`}
+        {/* <img
+          src={`${process.env.PUBLIC_URL}/img/logo.png`}
           className='w-full'
           alt=''
-        />
+        /> */}{' '}
+        Logo
       </div>
       <div className='w-[665px] flex justify-between flex-row items-center '>
         <div className='w-[61.65%] flex justify-between flex-row'>

@@ -5,11 +5,12 @@ function Footer() {
     <section className='container pb-[53px] flex flex-row '>
       <div className='w-[347px] flex flex-col mr-[274px] '>
         <div className='w-[200px]'>
-          <img
-            src={`${process.env.PUBLIC_URL}/img/logo.svg`}
+          {/* <img
+            src={`${process.env.PUBLIC_URL}/img/logo.png`}
             className='w-full'
             alt=''
-          />
+          /> */}{' '}
+          Logo
         </div>
         <p className='text-md font-Hellix400 py-24'>
           ARKALGO is a trading and finance company which helps you to grow your
