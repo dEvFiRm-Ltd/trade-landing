@@ -13,7 +13,7 @@ function Footer() {
           Logo
         </div>
         <p className='text-md font-Hellix400 py-24'>
-          ARKALGO is a trading and finance company which helps you to grow your
+          Devfirm is a trading and finance company which helps you to grow your
           bank account.
         </p>
         <div className='pt-18 flex flex-row'>

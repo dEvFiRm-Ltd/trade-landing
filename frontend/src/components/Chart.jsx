@@ -5,8 +5,8 @@ function Chart() {
   return (
     <section className='container py-[124px] flex flex-col items-center '>
       <SectionTitle
-        title={'Arkalgo Chart'}
-        miniTitle='Check out what a difference ArkAlgo makes on your chart!'
+        title={'Devfirm Chart'}
+        miniTitle='Check out what a difference Devfirm makes on your chart!'
       />
       <div className='mt-24 w-[560px]'>
         <img

@@ -4,7 +4,7 @@ function Bottom() {
   return (
     <footer className='border-t border-[#828282] '>
       <div className='container py-60 flex flex-row justify-between items-center '>
-        <p className=' text-xl leading-5 '>Copyrights@ ARKALGO 2021</p>
+        <p className=' text-xl leading-5 '>Copyrights@ Devfirm 2021</p>
         <div className='flex flex-row'>
           <a
             href='!'
