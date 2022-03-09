@@ -3,14 +3,14 @@ import React from 'react';
 function Header() {
   return (
     <header className='container py-32 flex flex-row justify-between '>
-      <div className='w-97'>
+      <div className='h-97'>
         <img
           src={`${process.env.PUBLIC_URL}/img/logo.svg`}
           className='w-full'
           alt=''
         />
       </div>
-      <div className='w-[665px] flex justify-between flex-row '>
+      <div className='w-[665px] flex justify-between flex-row items-center '>
         <div className='w-[61.65%] flex justify-between flex-row'>
           <a
             href='!#'

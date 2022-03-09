@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './fonts/Hellix-Light.ttf';
+import './fonts/Hellix-Regular.ttf';
+import './fonts/Hellix-Medium.ttf';
+import './fonts/Hellix-SemiBold.ttf';
+import './fonts/Hellix-Bold.ttf';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
