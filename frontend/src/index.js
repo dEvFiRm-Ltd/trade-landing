@@ -6,6 +6,7 @@ import './fonts/Hellix-Regular.ttf';
 import './fonts/Hellix-Medium.ttf';
 import './fonts/Hellix-SemiBold.ttf';
 import './fonts/Hellix-Bold.ttf';
+import './fontawesome.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
