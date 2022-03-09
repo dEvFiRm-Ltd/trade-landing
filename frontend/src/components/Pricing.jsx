@@ -64,7 +64,7 @@ function Pricing() {
               </span>{' '}
               50 <span className='absolute text-5xl -bottom-37 '>.00</span>
             </h5>
-            <button type='button' className='btns py-22 px-87 w-fit '>
+            <button type='button' className='btns py-22 px-87 '>
               buy now
             </button>
           </div>

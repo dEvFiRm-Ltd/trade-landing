@@ -56,7 +56,7 @@
     background: -webkit-linear-gradient(left, #b741ff 5.64%, #07a9ee 104.39%);
     background: linear-gradient(to right, #b741ff 5.64%, #07a9ee 104.39%);
 
-    @apply text-white rounded-[3.8px] text-center uppercase tracking-[24.5%] transition-all text-sm font-Hellix600 relative;
+    @apply text-white rounded-[3.8px] text-center uppercase tracking-[24.5%] w-fit transition-all text-sm font-Hellix600 relative;
   }
   .btns::after {
     background: -moz-linear-gradient(left, #b741ff 105.64%, #07a9ee 4.39%);

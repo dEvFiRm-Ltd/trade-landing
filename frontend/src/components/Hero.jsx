@@ -14,7 +14,7 @@ function Hero() {
             Get an edge against the competition using our advanced trading
             tools.
           </p>
-          <button className='btns py-18 px-[62px] w-[211px] '> buy now </button>
+          <button className='btns py-18 px-[62px] '> buy now </button>
         </div>
 
         <div className='h-[681px] absolute bottom-0 right-0 w-[562px] z-10 '>

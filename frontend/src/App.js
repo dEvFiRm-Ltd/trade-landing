@@ -1,4 +1,6 @@
 import About from './components/About';
+import Chart from './components/Chart';
+import Discord from './components/Discord';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Pricing from './components/Pricing';
@@ -12,6 +14,8 @@ function App() {
       <About />
       <Pricing />
       <Testimonials />
+      <Discord />
+      <Chart />
     </>
   );
 }
