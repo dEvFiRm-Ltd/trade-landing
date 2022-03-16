@@ -1,4 +1,5 @@
-import styles from '../styles/global.css';
+import '../styles/global.css';
+import '../styles/all.min.css';
 
 export default function Home() {
   return <>asd</>;
