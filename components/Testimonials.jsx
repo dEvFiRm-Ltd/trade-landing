@@ -14,9 +14,10 @@ function Testimonials() {
             <i className='fa-solid fa-quote-right text-[250px] '></i>
           </div> */}
           <div className='flex flex-col '>
-            <div className='w-[175px] mx-[2px] h-[175px] mb-28 rounded-[50%] overflow-hidden '>
+            <div className='w-[175px] mx-[2px] h-[175px] relative mb-28 rounded-[50%] overflow-hidden '>
               <Image
-                src={`${process.env.PUBLIC_URL}/img/user.jpg`}
+                src={`/img/user.jpg`}
+                layout='fill'
                 className='m-auto block'
                 alt=''
               />

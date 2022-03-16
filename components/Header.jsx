@@ -5,7 +5,7 @@ function Header() {
     <header className='container py-32 flex flex-row justify-between '>
       <div className='h-97'>
         {/* <img
-          src={`${process.env.PUBLIC_URL}/img/logo.png`}
+          src={`/img/logo.png`}
           className='w-full'
           alt=''
         /> */}{' '}

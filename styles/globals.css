@@ -41,9 +41,6 @@
   body {
     @apply bg-[#190B21]  overflow-x-hidden text-white;
   }
-  #root {
-    @apply bg-cover bg-no-repeat bg-left-top;
-  }
   img {
     @apply max-w-full object-contain h-auto block;
   }

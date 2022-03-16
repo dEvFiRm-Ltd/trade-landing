@@ -8,12 +8,8 @@ function Chart() {
         title={'Devfirm Chart'}
         miniTitle='Check out what a difference Devfirm makes on your chart!'
       />
-      <div className='mt-24 w-[560px]'>
-        <Image
-          src={`${process.env.PUBLIC_URL}/img/chart.png`}
-          alt=''
-          className='w-full'
-        />
+      <div className='mt-24 w-[560px] relative'>
+        <Image src={`/img/chart.png`} layout='fill' alt='' className='w-full' />
       </div>
     </section>
   );

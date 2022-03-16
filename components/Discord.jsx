@@ -5,11 +5,7 @@ function Discord() {
   return (
     <section className='relative bg-[#4f0080] bg-opacity-10 backdrop-blur-[48px] '>
       <div className='w-[762px] h-[368.29px] absolute right-0 top-50% translate-y-1/2 '>
-        <Image
-          src={`${process.env.PUBLIC_URL}/img/discord.png`}
-          alt=''
-          className=''
-        />
+        <Image src={`/img/discord.png`} layout='fill' alt='' className='' />
       </div>
       <div className='container pt-104 pb-[119px] '>
         <div className='w-[363px] flex flex-col items-start'>

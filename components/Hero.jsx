@@ -18,11 +18,7 @@ function Hero() {
         </div>
 
         <div className='h-[681px] absolute bottom-0 right-0 w-[562px] z-10 '>
-          <Image
-            className=''
-            src={`${process.env.PUBLIC_URL}/img/hero.png`}
-            alt=''
-          />
+          <Image className='' layout='fill' src={`/img/hero.png`} alt='' />
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ function Footer() {
       <div className='w-[347px] flex flex-col mr-[274px] '>
         <div className='w-[200px]'>
           {/* <img
-            src={`${process.env.PUBLIC_URL}/img/logo.png`}
+            src={`/img/logo.png`}
             className='w-full'
             alt=''
           /> */}{' '}

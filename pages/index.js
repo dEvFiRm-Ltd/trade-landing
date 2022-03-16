@@ -10,7 +10,10 @@ import Testimonials from '../components/Testimonials';
 
 export default function Home() {
   return (
-    <>
+    <div
+      style={{ backgroundImage: 'url(./img/bg.png)' }}
+      className='bg-cover bg-no-repeat bg-left-top'
+    >
       <Header />
       <Hero />
       <About />
@@ -20,6 +23,6 @@ export default function Home() {
       <Chart />
       <Footer />
       <Bottom />
-    </>
+    </div>
   );
 }
