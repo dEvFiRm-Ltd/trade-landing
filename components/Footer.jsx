@@ -21,19 +21,19 @@ function Footer() {
             href='!'
             className='py-8 px-6 bg-[#7435CB] rounded-md mx-11 first:ml-0 last:mr-0 '
           >
-            <i class='fa-brands fa-youtube'></i>
+            <i className='fa-brands fa-youtube'></i>
           </a>
           <a
             href='!'
             className='py-8 px-6 bg-[#7435CB] rounded-md mx-11 first:ml-0 last:mr-0 '
           >
-            <i class='fa-brands fa-youtube'></i>
+            <i className='fa-brands fa-youtube'></i>
           </a>
           <a
             href='!'
             className='py-8 px-6 bg-[#7435CB] rounded-md mx-11 first:ml-0 last:mr-0 '
           >
-            <i class='fa-brands fa-youtube'></i>
+            <i className='fa-brands fa-youtube'></i>
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-
+import Image from 'next/image';
 function Testimonials() {
   return (
     <section className='container py-[117px]'>
@@ -11,11 +11,11 @@ function Testimonials() {
       <div className='mt-[35px]'>
         <div className='mb-87 pt-102 pb-87 px-[136px] rounded-[20px] bg-white bg-opacity-5 w-[891px] backdrop-blur-[20px] flex flex-row items-center justify-between relative '>
           {/* <div className='opacity-10 absolute top-[38px] right-[57px] w-[250px] h-[250px] '>
-            <i class='fa-solid fa-quote-right text-[250px] '></i>
+            <i className='fa-solid fa-quote-right text-[250px] '></i>
           </div> */}
           <div className='flex flex-col '>
             <div className='w-[175px] mx-[2px] h-[175px] mb-28 rounded-[50%] overflow-hidden '>
-              <img
+              <Image
                 src={`${process.env.PUBLIC_URL}/img/user.jpg`}
                 className='m-auto block'
                 alt=''
@@ -30,13 +30,13 @@ function Testimonials() {
           </div>
           <div className='flex flex-col justify-start w-[342px]'>
             <p className='text-md font-Hellix400 mb-24'>
-              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              vel? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Porro voluptatem nesciunt ullam neque! Accusantium, earum. "
+              &quote; Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sit, vel? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Porro voluptatem nesciunt ullam neque! Accusantium, earum. &quote;
             </p>
             <div className='flex flex-row'>
-              <i class='fa-solid fa-star mx-[2px] text-[#CCB53C]'></i>
-              <i class='fa-regular fa-star mx-[2px] text-[#CCB53C]'></i>
+              <i className='fa-solid fa-star mx-[2px] text-[#CCB53C]'></i>
+              <i className='fa-regular fa-star mx-[2px] text-[#CCB53C]'></i>
             </div>
           </div>
         </div>

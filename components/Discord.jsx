@@ -1,11 +1,11 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-
+import Image from 'next/image';
 function Discord() {
   return (
     <section className='relative bg-[#4f0080] bg-opacity-10 backdrop-blur-[48px] '>
       <div className='w-[762px] h-[368.29px] absolute right-0 top-50% translate-y-1/2 '>
-        <img
+        <Image
           src={`${process.env.PUBLIC_URL}/img/discord.png`}
           alt=''
           className=''

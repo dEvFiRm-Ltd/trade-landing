@@ -10,10 +10,10 @@ function Bottom() {
             href='!'
             className='block mr-30 rounded-md p-11 bg-white text-black '
           >
-            <i class='fa-brands text-lg fa-cc-visa'></i>
+            <i className='fa-brands text-lg fa-cc-visa'></i>
           </a>
           <a href='!' className='block mr-30 rounded-md p-11 bg-white '>
-            <i class='fa-brands text-lg fa-cc-visa'></i>
+            <i className='fa-brands text-lg fa-cc-visa'></i>
           </a>
         </div>
       </div>

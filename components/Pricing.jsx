@@ -13,48 +13,48 @@ function Pricing() {
             </h4>
             <div className='flex flex-row justify-between relative py-16 first:pb-[9px] first:pt-0 after:bottom-0 after:left-0 after:right-0 after:w-full after:h-[1px] after:bg-[#828282] after:opacity-50 after:absolute last:after:hidden '>
               <div className='flex flex-row '>
-                <i class='fa-regular fa-circle-user mr-20 text-xl '></i>
+                <i className='fa-regular fa-circle-user mr-20 text-xl '></i>
                 <h5 className='font-Hellix500 text-lg '>
                   Lorem ipsum dolor sit amet consectetur.
                 </h5>
               </div>
-              <i class='fa-solid fa-circle-check text-xl text-green-400 '></i>
+              <i className='fa-solid fa-circle-check text-xl text-green-400 '></i>
             </div>
             <div className='flex flex-row justify-between relative py-16 first:pb-[9px] first:pt-0 after:bottom-0 after:left-0 after:right-0 after:w-full after:h-[1px] after:bg-[#828282] after:opacity-50 after:absolute last:after:hidden '>
               <div className='flex flex-row '>
-                <i class='fa-regular fa-circle-user mr-20 text-xl '></i>
+                <i className='fa-regular fa-circle-user mr-20 text-xl '></i>
                 <h5 className='font-Hellix500 text-lg '>
                   Lorem ipsum dolor sit amet consectetur.
                 </h5>
               </div>
-              <i class='fa-solid fa-circle-check text-xl text-green-400 '></i>
+              <i className='fa-solid fa-circle-check text-xl text-green-400 '></i>
             </div>
             <div className='flex flex-row justify-between relative py-16 first:pb-[9px] first:pt-0 after:bottom-0 after:left-0 after:right-0 after:w-full after:h-[1px] after:bg-[#828282] after:opacity-50 after:absolute last:after:hidden '>
               <div className='flex flex-row '>
-                <i class='fa-regular fa-circle-user mr-20 text-xl '></i>
+                <i className='fa-regular fa-circle-user mr-20 text-xl '></i>
                 <h5 className='font-Hellix500 text-lg '>
                   Lorem ipsum dolor sit amet consectetur.
                 </h5>
               </div>
-              <i class='fa-solid fa-circle-check text-xl text-green-400 '></i>
+              <i className='fa-solid fa-circle-check text-xl text-green-400 '></i>
             </div>
             <div className='flex flex-row justify-between relative py-16 first:pb-[9px] first:pt-0 after:bottom-0 after:left-0 after:right-0 after:w-full after:h-[1px] after:bg-[#828282] after:opacity-50 after:absolute last:after:hidden '>
               <div className='flex flex-row '>
-                <i class='fa-regular fa-circle-user mr-20 text-xl '></i>
+                <i className='fa-regular fa-circle-user mr-20 text-xl '></i>
                 <h5 className='font-Hellix500 text-lg '>
                   Lorem ipsum dolor sit amet consectetur.
                 </h5>
               </div>
-              <i class='fa-solid fa-circle-check text-xl text-green-400 '></i>
+              <i className='fa-solid fa-circle-check text-xl text-green-400 '></i>
             </div>
             <div className='flex flex-row justify-between relative py-16 first:pb-[9px] first:pt-0 after:bottom-0 after:left-0 after:right-0 after:w-full after:h-[1px] after:bg-[#828282] after:opacity-50 after:absolute last:after:hidden '>
               <div className='flex flex-row '>
-                <i class='fa-regular fa-circle-user mr-20 text-xl '></i>
+                <i className='fa-regular fa-circle-user mr-20 text-xl '></i>
                 <h5 className='font-Hellix500 text-lg '>
                   Lorem ipsum dolor sit amet consectetur.
                 </h5>
               </div>
-              <i class='fa-solid fa-circle-check text-xl text-green-400 '></i>
+              <i className='fa-solid fa-circle-check text-xl text-green-400 '></i>
             </div>
           </div>
           <div className='w-[47%] flex flex-col justify-end items-center '>
